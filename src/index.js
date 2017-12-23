@@ -39,7 +39,7 @@ and dependencies (minified).
 import mousewheel from 'jquery-mousewheel';
 import './styles.css';
 
-module.exports = function($) {
+export default function($) {
 	mousewheel($);
 
 	/* 
