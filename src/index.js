@@ -40,8 +40,6 @@ import mousewheel from 'jquery-mousewheel';
 import './styles.css';
 
 export default function($) {
-	mousewheel($);
-
 	/* 
 	----------------------------------------
 	PLUGIN NAMESPACE, PREFIX, DEFAULT SELECTOR(S) 
